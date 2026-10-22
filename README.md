@@ -8,6 +8,10 @@ Simulador de trading de Bitcoin. Gráfico de velas en vivo y paper trading apala
 
 **[https://fakebtc.grok.me](https://fakebtc.grok.me)**
 
+![FakeBTC con el precio en vivo y el MACD](docs/fakebtc-flat.jpg)
+
+![FakeBTC con una posición en largo](docs/fakebtc-long.jpg)
+
 - Velas BTC/USDT de Binance, de 1 minuto a 1 día
 - Indicadores: SMA 21, cruce de medias y MACD
 - Comprar y vender, equity y PnL en tiempo real
