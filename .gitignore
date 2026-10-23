@@ -5,7 +5,7 @@ dist
 .tanstack
 .grok
 artifacts
-screenshots
+/screenshots
 .project_id
 .node_modules.lock
 *.log

@@ -1,1 +1,5 @@
-{"title":"FakeBTC","card":"custom"}
+{
+  "title": "FakeBTC",
+  "card": "custom",
+  "description": "Simulador de trading de Bitcoin con gráfico de velas en vivo y paper trading a 100x."
+}

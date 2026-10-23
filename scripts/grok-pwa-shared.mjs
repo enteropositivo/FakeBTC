@@ -170,6 +170,26 @@ export function renderWebManifest(hostHeader, site = {}) {
       display: "standalone",
       background_color: "#100e0c",
       theme_color: "#100e0c",
+      description:
+        String(site.description ?? "").trim() ||
+        "Simulador de trading de Bitcoin con gráfico de velas en vivo y paper trading a 100x.",
+      orientation: "any",
+      screenshots: [
+        {
+          src: "/screenshots/fakebtc-flat.jpg",
+          sizes: "365x676",
+          type: "image/jpeg",
+          form_factor: "narrow",
+          label: "Precio en vivo y MACD",
+        },
+        {
+          src: "/screenshots/fakebtc-long.jpg",
+          sizes: "367x678",
+          type: "image/jpeg",
+          form_factor: "narrow",
+          label: "Posición en largo",
+        },
+      ],
       icons: [
         {
           src: "/__grok/icon-180.png",
