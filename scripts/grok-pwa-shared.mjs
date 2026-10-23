@@ -174,6 +174,11 @@ export function renderWebManifest(hostHeader, site = {}) {
         String(site.description ?? "").trim() ||
         "Simulador de trading de Bitcoin con gráfico de velas en vivo y paper trading a 100x.",
       orientation: "any",
+      lang: "es",
+      dir: "ltr",
+      categories: ["finance"],
+      prefer_related_applications: false,
+      display_override: ["standalone", "browser"],
       screenshots: [
         {
           src: "/screenshots/fakebtc-flat.jpg",
